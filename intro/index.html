@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/custom.css">
+
+    </head>
+    <body>
+        <div class="container center">
+            <div class="box center">
+                <div class="danger ball center"></div>
+                <div class="input-group">               
+                    <form method="POST" name="login" id="login" target="self">
+                        <input type="text" id="name" class="form-input" placeholder="Name">
+                        <input type="text" id="lastname" class="form-input"placeholder="Last Name">
+                        <input type="text" id="emanil" class="form-input"placeholder="Email">
+                        <div class="custom-radio">
+                            <div class="blue">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">male</label>
+                            </div>
+                            <div class="red">
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">female</label>
+                            </div>
+                        </div>
+                        <input type="text" id="description" class="form-input"placeholder="Description">
+                        <label class="checkbox">
+                            <input type="checkbox" name="accept" id="accept" value="accept">
+                            <span class="checksymbol"></span>
+                            accept terms
+                        </label>
+    
+                        <button type="reset"class="btn danger">Clear</button>
+                        <button type="submit" class="btn success" onclick="validate();">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
