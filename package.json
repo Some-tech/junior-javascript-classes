@@ -1,0 +1,27 @@
+{
+  "name": "intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Some-tech/junior-javascript-classes.git"
+  },
+  "scripts": {
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "cssnano": "^5.0.8",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.3",
+    "postcss": "^8.1.0"
+  },
+  "dependencies": {
+  }
+}
